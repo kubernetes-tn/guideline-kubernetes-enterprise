@@ -178,6 +178,6 @@ helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 # install it
 helm -n kube-system install \
   ingress ingress-nginx/ingress-nginx \
-  --set extraArgs.default-ssl-certificate="kube-system/ingress-tls-cert"
+  --set controller.extraArgs.default-ssl-certificate="kube-system/ingress-tls-cert"
 
 ```
