@@ -103,7 +103,7 @@ EOF
 
 - Set your DNS to 127.0.0.1 in System Preferences > Network > Advanced > DNS. 
 
-![dns](./.images/sys-prefs-network-advanced-dns.png)
+![dns](../.images/sys-prefs-network-advanced-dns.png)
 
 - Flush your DNS for good measure:
 
