@@ -1,6 +1,8 @@
 # Get k3s local env
 - create vm `multipass launch --name k3s --mem 4G --disk 40G`
+
     validate `multipass ls`
+    
 - IF NEEDED, mount host folders: `multipass mount ~/test/k8s k3s:~/k8s`
 - Install k3s
 ```sh
